@@ -1,0 +1,14 @@
+prefix=/home/dexing/srs/srs-csdn/trunk/objs/ffmpeg.src/_release
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 55.19.104
+Requires: libavcodec = 55.39.101
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavformat -lx264 -lspeex -lmp3lame -lfdk-aac -lm -lbz2 -lz -lpthread
+Libs.private: 
+Cflags: -I${includedir}

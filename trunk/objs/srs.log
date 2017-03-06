@@ -1,0 +1,61 @@
+[2017-03-06 17:02:06.915][trace][23986][0] srs checking config...
+[2017-03-06 17:02:06.916][trace][23986][0] detect intranet address: 127.0.0.1, ifname=lo
+[2017-03-06 17:02:06.916][trace][23986][0] retrieve local ipv4 ip=10.0.2.15, index=0
+[2017-03-06 17:02:06.916][trace][23986][0] detect intranet address: 10.0.2.15, ifname=eth0
+[2017-03-06 17:02:06.916][trace][23986][0] retrieve local ipv4 ip=192.168.1.93, index=1
+[2017-03-06 17:02:06.916][trace][23986][0] detect intranet address: 192.168.1.93, ifname=eth1
+[2017-03-06 17:02:06.916][warn][23986][0][2] stats network use index=0, ip=10.0.2.15
+[2017-03-06 17:02:06.916][warn][23986][0][2] stats disk list: sda sdb xvda xvdb 
+[2017-03-06 17:02:06.916][trace][23986][0] write log to file ./objs/srs.log
+[2017-03-06 17:02:06.916][trace][23986][0] you can: tailf ./objs/srs.log
+[2017-03-06 17:02:06.916][trace][23986][0] @see: https://github.com/ossrs/srs/wiki/v1_CN_SrsLog
+[2017-03-06 17:02:06.916][trace][23986][0] SRS/2.0.234(ZhouGuowen), stable is SRS/1.0release
+[2017-03-06 17:02:06.916][trace][23986][0] license: The MIT License (MIT), Copyright (c) 2013-2015 SRS(ossrs)
+[2017-03-06 17:02:06.916][trace][23986][0] primary/master: SRS/1.0release
+[2017-03-06 17:02:06.916][trace][23986][0] authors: winlin,wenjie.zhao
+[2017-03-06 17:02:06.916][trace][23986][0] contributors: winlin<winlin@vip.126.com> wenjie.zhao<740936897@qq.com> xiangcheng.liu<liuxc0116@foxmail.com> naijia.liu<youngcow@youngcow.net> alcoholyi<alcoholyi@qq.com> byteman<wangchen2011@gmail.com> chad.wang<chad.wang.cn@gmail.com> suhetao<suhetao@gmail.com> Johnny<fengjihu@163.com> karthikeyan<keyanmca@gmail.com> StevenLiu<lq@chinaffmpeg.org> zhengfl<zhengfl_1989@126.com> tufang14<breadbean1449@gmail.com> allspace<allspace@gmail.com> niesongsong<nie950@gmail.com> rudeb0t<nimrod@themanxgroup.tw> CallMeNP<np.liamg@gmail.com> synote<synote@qq.com> lovecat<littlefawn@163.com> panda1986<542638787@qq.com> YueHonghui<hongf.yue@hotmail.com> 
+[2017-03-06 17:02:06.916][trace][23986][0] uname: Linux xing 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+[2017-03-06 17:02:06.916][trace][23986][0] build: 2017-03-06 16:47:00, little-endian
+[2017-03-06 17:02:06.916][trace][23986][0] configure: --x86-x64  --prefix=/usr/local/srs --with-ssl --with-hls --with-hds --with-dvr --with-nginx --with-http-callback --with-http-server --with-stream-caster --with-http-api --with-ffmpeg --with-transcode --with-ingest --with-stat --with-librtmp --with-research --with-utest --with-gperf --with-gprof
+[2017-03-06 17:02:06.916][trace][23986][0] features: --prefix=/usr/local/srs --with-hls --with-hds --with-dvr --with-nginx --with-ssl --with-ffmpeg --with-transcode --with-ingest --with-stat --with-http-callback --with-http-server --with-stream-caster --with-http-api --with-librtmp --with-research --with-utest --with-gperf --without-gmc --without-gmp --without-gcp --with-gprof --without-arm-ubuntu12 --without-mips-ubuntu12 --log-trace
+[2017-03-06 17:02:06.916][trace][23986][0] conf: conf/srs.conf, limit: 1000
+[2017-03-06 17:02:06.916][trace][23986][0] writev limits write 1024 iovs a time
+[2017-03-06 17:02:06.916][warn][23986][0][2] SRS 2.0.234 is not stable, please use stable branch 1.0release instead
+[2017-03-06 17:02:06.916][warn][23986][0][2] stream caster is experiment feature.
+[2017-03-06 17:02:06.916][trace][23986][0] cpu is amd64, glibc 2.19
+[2017-03-06 17:02:06.916][trace][23986][0] cpu is x86_64, glibc 2.19
+[2017-03-06 17:02:06.916][trace][23986][0] check feature rtmp handshake: on
+[2017-03-06 17:02:06.916][trace][23986][0] check feature hls: on
+[2017-03-06 17:02:06.916][trace][23986][0] check feature hds: on
+[2017-03-06 17:02:06.916][trace][23986][0] check feature http callback: on
+[2017-03-06 17:02:06.916][trace][23986][0] check feature http api: on
+[2017-03-06 17:02:06.916][trace][23986][0] check feature http server: on
+[2017-03-06 17:02:06.916][trace][23986][0] check feature http parser: on
+[2017-03-06 17:02:06.916][trace][23986][0] check feature dvr: on
+[2017-03-06 17:02:06.916][trace][23986][0] check feature transcode: on
+[2017-03-06 17:02:06.916][trace][23986][0] check feature ingest: on
+[2017-03-06 17:02:06.916][trace][23986][0] check feature system stat: on
+[2017-03-06 17:02:06.916][trace][23986][0] check feature compile nginx: on
+[2017-03-06 17:02:06.916][trace][23986][0] check feature compile ffmpeg: on
+[2017-03-06 17:02:06.916][trace][23986][0] stream caster: on
+[2017-03-06 17:02:06.916][trace][23986][0] MR(merged-read): on, @see https://github.com/ossrs/srs/issues/241
+[2017-03-06 17:02:06.916][trace][23986][0] MR(merged-read) default 0 sleep 350
+[2017-03-06 17:02:06.916][trace][23986][0] MW(merged-write) default sleep 350
+[2017-03-06 17:02:06.916][trace][23986][0] read chunk stream cache cid [0, 16)
+[2017-03-06 17:02:06.916][trace][23986][0] default gop cache 1, play queue 30s
+[2017-03-06 17:02:06.916][trace][23986][0] complex send algorithm enabled.
+[2017-03-06 17:02:06.916][warn][23986][0][2] TCP_NODELAY enabled, may hurts performance.
+[2017-03-06 17:02:06.916][trace][23986][0] auto guess socket send buffer by merged write
+[2017-03-06 17:02:06.916][trace][23986][0] system default latency in ms: mw(0-350) + mr(0-350) + play-queue(0-30000)
+[2017-03-06 17:02:06.916][trace][23986][0] http: root mount to ./objs/nginx/html
+[2017-03-06 17:02:06.916][trace][23986][0] start deamon mode...
+[2017-03-06 17:02:06.917][trace][23987][0] father process exit. ret=0
+[2017-03-06 17:02:06.917][trace][23988][0] son(deamon) process running.
+[2017-03-06 17:02:06.917][trace][23988][0] st_set_eventsys to epoll
+[2017-03-06 17:02:06.917][trace][23988][0] st_init success, use epoll
+[2017-03-06 17:02:06.917][trace][23988][100] server main cid=100, pid=23988, ppid=5069, asprocess=0
+[2017-03-06 17:02:06.917][trace][23988][100] write pid=23988 to ./objs/srs.pid success!
+[2017-03-06 17:02:06.918][error][23988][100][98] bind socket error. ep=0.0.0.0:1935, ret=1002(Address already in use)
+[2017-03-06 17:02:06.918][error][23988][100][98] tcp listen failed. ret=1002(Address already in use)
+[2017-03-06 17:02:06.918][error][23988][100][98] RTMP stream listen at 0.0.0.0:1935 failed. ret=1002(Address already in use)
+[2017-03-06 17:02:06.925][trace][23986][0] grandpa process exit.
